@@ -1,0 +1,34 @@
+{
+  "playlistCollection": [
+    {
+      "id": "a8ffde20-d58c-11ea-8c22-1d24463c5616",
+      "userid": "f98f10c0-d589-11ea-9c6a-3be0e191f6c7",
+      "title": "testing",
+      "songs": []
+    },
+    {
+      "id": "fae22730-d595-11ea-a5db-f5af9a0b0a84",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "1234567890",
+      "songs": []
+    },
+    {
+      "id": "c1280740-d599-11ea-aa21-99284265ab54",
+      "userid": "f98f10c0-d589-11ea-9c6a-3be0e191f6c7",
+      "title": "12345",
+      "songs": []
+    },
+    {
+      "id": "761e7990-d59a-11ea-9517-73b5bbf1559d",
+      "userid": "f98f10c0-d589-11ea-9c6a-3be0e191f6c7",
+      "title": "sadadad",
+      "songs": []
+    },
+    {
+      "id": "7adc9ae0-d5bb-11ea-860b-5dca37b594d7",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "22222222",
+      "songs": []
+    }
+  ]
+}

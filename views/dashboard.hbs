@@ -1,44 +1,7 @@
 {{> menu id="dashboard"}}
-{{> analytics}}
-{{> addassessment}}
 
-{{#each assessments}}
-  <section class="ui segment">
-    <table class="ui table">
-      <thead>
-        <tr>
-          <th>Weight</th>
-          <th>Chest</th>
-            <th>Thigh</th>
-            <th>Upper Arm</th>
-            <th>Waist</th>
-            <th>Hips</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each assessment}}
-          <tr>
-            <td>
-              {{Weight}}
-            </td>
-            <td>
-              {{Chest}}
-            </td>
-              <td>
-                  {{Thigh}}
-              </td>
-              <td>
-                  {{UpperArm}}
-              </td>
-              <td>
-                  {{Waist}}
-              </td>
-              <td>
-                  {{Hips}}
-              </td>
-          </tr>
-        {{/each}}
-      </tbody>
-    </table>
-  </section>
-{{/each}}
+<section class="ui segment">
+  {{> listplaylists}}
+  {{> addplaylist}}
+</section>
+

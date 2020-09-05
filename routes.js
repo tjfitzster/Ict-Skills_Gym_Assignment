@@ -1,13 +1,27 @@
-"use strict";
+~"use strict";
 
 const express = require("express");
 const router = express.Router();
 
+const accounts = require("./controllers/accounts.js");
 const dashboard = require("./controllers/dashboard.js");
 const about = require("./controllers/about.js");
+const playlist = require("./controllers/playlist.js"); /* Not Completed */
 
+router.get("/", accounts.index);
+router.get("/login", accounts.login);
+router.get("/signup", accounts.signup);
+router.get("/logout", accounts.logout);
+router.post("/register", accounts.register);
+router.post("/authenticate", accounts.authenticate);
 
-router.get("/", dashboard.index);
 router.get("/dashboard", dashboard.index);
-router.get("/about", about.index);
+router.get("/dashboard/deleteplaylist/:id", dashboard.deletePlaylist); /* Not Completed */
+router.post("/dashboard/addplaylist", dashboard.addPlaylist); /* Not Completed */
+
+router.get("/about", about.index); /* Not Completed */
+router.get("/playlist/:id", playlist.index); /* Not Completed */
+router.get("/playlist/:id/deletesong/:songid", playlist.deleteSong); /* Not Completed */
+router.post("/playlist/:id/addsong", playlist.addSong); /* Not Completed */
+
 module.exports = router;
