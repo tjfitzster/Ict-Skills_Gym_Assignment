@@ -1,10 +1,10 @@
-const { createLogger, format, transports } = require("winston");
-const { combine, timestamp, label, prettyPrint } = format;
+const {createLogger, format, transports} = require("winston");
+const {combine, timestamp, label, prettyPrint} = format;
 
 const logger = createLogger({
   format: combine(
-      label({ label: "Playlist" }),
-      //      timestamp(),
+      label({label: "Gym Application"}),
+      //timestamp(),
       prettyPrint()
   ),
   transports: [new transports.Console()]

@@ -1,0 +1,136 @@
+{
+  "Membercollection": [
+    {
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "firstname": "TJ",
+      "lastName": "Fitzpatrick",
+      "height": "1.5",
+      "bmi": "1.4",
+      "email": "tj@fitzpatrick.com",
+      "password": "secret",
+      "assessments": [
+        {
+          "id": "01",
+          "Weight": "1",
+          "Chest": "1",
+          "Thigh": "1",
+          "UpperArm": "1",
+          "Waist": "1",
+          "Hips": "1"
+        },
+        {
+          "id": "02",
+          "Weight": "12",
+          "Chest": "13",
+          "Thigh": "16",
+          "UpperArm": "18",
+          "Waist": "20",
+          "Hips": "20"
+        },
+        {
+          "id": "03",
+          "Weight": "12",
+          "Chest": "13",
+          "Thigh": "16",
+          "UpperArm": "18",
+          "Waist": "20",
+          "Hips": "20"
+        },
+        {
+          "id": "49830280-d05d-11ea-9023-7352409d555a",
+          "Weight": 10,
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "c6b83b80-d05d-11ea-a5b4-15a11af260a3",
+          "Weight": 10,
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        }
+      ]
+    },
+    {
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "firstname": "John",
+      "lastName": "Fitzpatrick",
+      "height": "1.5",
+      "bmi": 1,
+      "email": "john@fitzpatrick.com",
+      "password": "secret",
+      "assessments": [
+        {
+          "id": "01",
+          "Weight": "1",
+          "Chest": "1",
+          "Thigh": "1",
+          "UpperArm": "1",
+          "Waist": "1",
+          "Hips": "1"
+        },
+        {
+          "id": "02",
+          "Weight": "12",
+          "Chest": "13",
+          "Thigh": "16",
+          "UpperArm": "18",
+          "Waist": "20",
+          "Hips": "20"
+        },
+        {
+          "id": "03",
+          "Weight": "12",
+          "Chest": "13",
+          "Thigh": "16",
+          "UpperArm": "18",
+          "Waist": "20",
+          "Hips": "20"
+        },
+        {
+          "id": "49830280-d05d-11ea-9023-7352409d555a",
+          "Weight": 10,
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "c6b83b80-d05d-11ea-a5b4-15a11af260a3",
+          "Weight": 10,
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "7dad0cc0-d4ba-11ea-b1ae-e506818cde8c",
+          "Weight": 2,
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        }
+      ]
+    },
+    {
+      "firstName": "jim",
+      "lastName": "jones",
+      "email": "jim@jones.com",
+      "password": "secret",
+      "address": "78 BBP",
+      "height": "2.1",
+      "startingweight": "12",
+      "gender": "male",
+      "id": "97d8f1f0-d4c3-11ea-b591-e16b47e00f49"
+    }
+  ]
+}

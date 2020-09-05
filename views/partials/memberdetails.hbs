@@ -1,0 +1,26 @@
+{{#each member}}
+    <section class="ui segment">
+        <div class="ui two small statistics">
+            <div class="ui statistic">
+                <div class="value">
+                    <i class="user icon"> </i>
+                </div>
+                <div class="label">
+                    <h2 class="ui header">{{name}} </h2>
+                </div>
+            </div>
+            <div class="ui statistic">
+                <div class="value">
+                    <i class="heartbeat icon"> </i>
+                </div>
+                <div class="label">
+                    <h2 class="ui header"> BMI: {{bmi}} </h2>
+                </div>
+            </div>
+        </div>
+        <a href="/assessments/{{id}}" class="ui icon button">
+            <!-- this is the members id-->
+            <i class="icon folder open"></i>
+        </a>
+    </section>
+{{/each}}
