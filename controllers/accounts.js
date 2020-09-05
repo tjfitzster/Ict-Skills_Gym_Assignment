@@ -6,9 +6,9 @@ const uuid = require("uuid");
 
 const accounts = {
   index(request, response) {
-    const viewData = {
-      title: "Login or Signup"
-    };
+      const viewData = {
+        title: "Login or Signup"
+      };
     response.render("index", viewData);
   },
 
@@ -20,7 +20,7 @@ const accounts = {
   },
 
   logout(request, response) {
-    response.cookie("assessment", "");
+    response.cookie("playlist", "");
     response.redirect("/");
   },
 
@@ -41,25 +41,17 @@ const accounts = {
 
   authenticate(request, response) {
     const user = userstore.getUserByEmail(request.body.email);
-    if (typeof user === 'undefined')
-    {
-      response.redirect("/"); // I do this because there is no object returned when the email is incorrect
-    }
-    else
-    {
-      if(user.password == request.body.password) {
-        response.cookie("assessment", user.email);
-        logger.info(`logging in ${user.email}`);
-        response.redirect("/dashboard");
-      }
-      else{
-        response.redirect("/login");
-      }
+    if (user.password === request.body.password) {
+      response.cookie("playlist", user.email);
+      logger.info(`logging in ${user.email}`);
+      response.redirect("/dashboard");
+    } else {
+      response.redirect("/login");
     }
   },
 
   getCurrentUser(request) {
-    const userEmail = request.cookies.assessment;
+    const userEmail = request.cookies.playlist;
     return userstore.getUserByEmail(userEmail);
   }
 };

@@ -6,7 +6,7 @@ const router = express.Router();
 const accounts = require("./controllers/accounts.js");
 const dashboard = require("./controllers/dashboard.js");
 const about = require("./controllers/about.js");
-const playlist = require("./controllers/playlist.js"); /* Not Completed */
+const playlist = require("./controllers/playlist.js");
 
 router.get("/", accounts.index);
 router.get("/login", accounts.login);
@@ -16,12 +16,12 @@ router.post("/register", accounts.register);
 router.post("/authenticate", accounts.authenticate);
 
 router.get("/dashboard", dashboard.index);
-router.get("/dashboard/deleteplaylist/:id", dashboard.deletePlaylist); /* Not Completed */
-router.post("/dashboard/addplaylist", dashboard.addPlaylist); /* Not Completed */
+router.get("/dashboard/deleteplaylist/:id", dashboard.deletePlaylist);
+router.post("/dashboard/addplaylist", dashboard.addPlaylist);
 
-router.get("/about", about.index); /* Not Completed */
-router.get("/playlist/:id", playlist.index); /* Not Completed */
-router.get("/playlist/:id/deletesong/:songid", playlist.deleteSong); /* Not Completed */
-router.post("/playlist/:id/addsong", playlist.addSong); /* Not Completed */
+router.get("/about", about.index);
+router.get("/playlist/:id", playlist.index);
+router.get("/playlist/:id/deletesong/:songid", playlist.deleteSong);
+router.post("/playlist/:id/addsong", playlist.addSong);
 
 module.exports = router;

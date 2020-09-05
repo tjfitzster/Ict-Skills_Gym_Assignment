@@ -19,12 +19,14 @@
       "lastName": "Fitzpatrick",
       "email": "tj@fitzpatrick.com",
       "password": "secret",
-      "address": "64 Kilkenny city",
-      "height": "2.1",
-      "startingweight": "21",
-      "gender": "male",
-      "bmi": "0",
-      "id": "f98f10c0-d589-11ea-9c6a-3be0e191f6c7"
+      "id": "e5e977b0-dc0d-11ea-9bdc-0d77a78ef15d"
+    },
+    {
+      "firstName": "jim",
+      "lastName": "jones",
+      "email": "j@j.com",
+      "password": "secret",
+      "id": "f3142840-df00-11ea-8ea0-3384a6577182"
     }
   ]
 }

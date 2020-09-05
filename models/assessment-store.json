@@ -1,36 +1,50 @@
 {
-  "Assessmentlistcollection": [
+  "listofAssessments": [
     {
-      "memberid": "01",
-      "member": "James",
-      "age": 31,
+      "id": "7c9c7c90-dc0c-11ea-aad8-0510c8c35fae",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "assessment": [
         {
-          "assessmentid": "01",
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
+          "id": "a9251740-dc0c-11ea-aad8-0510c8c35fae",
+          "Weight": "SONG 1",
+          "Chest": "ARTIST 1",
+          "Thigh": "21-07-07",
+          "UpperArm": "12",
+          "Waist" : "12",
+          "Hips" : "12"
         },
         {
-          "assessmentid": "02",
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
+          "id": "b0dfd9c0-dc0c-11ea-aad8-0510c8c35fae",
+          "Weight": "SONG 2",
+          "Chest": "ARTIST 2",
+          "Thigh": "21-07-07",
+          "UpperArm": "12",
+          "Waist" : "12",
+          "Hips" : "12"
+        }
+      ]
+    },
+    {
+      "id": "7c9c7c90-dc0c-11ea-aad8-0510c8c35faa",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c1",
+      "assessment": [
+        {
+          "id": "a9251740-dc0c-11ea-aad8-0510c8c35fa1",
+          "Weight": "SONG 3",
+          "Chest": "ARTIST 3",
+          "Thigh": "21-07-07",
+          "UpperArm": "12",
+          "Waist" : "12",
+          "Hips" : "12"
         },
         {
-          "assessmentid": "03",
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
+          "id": "b0dfd9c0-dc0c-11ea-aad8-0510c8c35fa1",
+          "Weight": "SONG 4",
+          "Chest": "ARTIST 4",
+          "Thigh": "21-07-07",
+          "UpperArm": "12",
+          "Waist" : "12",
+          "Hips" : "12"
         }
       ]
     }

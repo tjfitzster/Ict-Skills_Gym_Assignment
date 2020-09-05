@@ -20,13 +20,13 @@ class JsonStore {
       .push(obj)
       .last()
       .value();
-  }
+  }remove(collection, obj) {
+  this.db
+    .get(collection)
+    .remove(obj)
+    .value();
 
-  remove(collection, obj) {
-    this.db
-      .get(collection)
-      .remove(obj)
-      .value();
+
   }
 
   removeAll(collection) {
