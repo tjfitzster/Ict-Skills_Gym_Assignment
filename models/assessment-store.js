@@ -23,6 +23,20 @@ const user_assessmentStore = {
     return this.store.findBy(this.collection, { userid: userid });
   },
 
+  addAssessment(id, assessment) {
+    logger.info("===============");
+    logger.info("user id " + id);
+    const userAssessment = this.listuserAssessments(id);
+    userAssessment.assessment.push(assessment);
+    this.store.save();
+  },
+
+  listuserAssessments(userid) {
+    return this.store.findOneBy(this.collection, { userid: userid });
+
+  },
+
+
 }
 //module.exports = playlistStore;
 module.exports = user_assessmentStore;

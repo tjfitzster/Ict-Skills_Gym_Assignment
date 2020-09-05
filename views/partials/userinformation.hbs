@@ -1,3 +1,4 @@
+{{test}}
 
 <section class="ui segment">
     <div class="ui three small statistics">
@@ -6,20 +7,26 @@
                 <i class="user icon"> </i>
             </div>
             <div class="label">
-                <h2 class="ui header">{{user.firstName}}  {{user.lastName}} </h2>
+                <h3 class="ui header">{{user.firstName}}  </h3>
             </div>
         </div>
         <div class="ui statistic">
             <div class="value">
-                <i class="heartbeat icon"> </i> <!-- ${_bmi}-->
+                <i class="heartbeat icon"> </i>
             </div>
             <div class="label">
-                <h2 class="ui header"> BMI   </h2>
+
+                <h3 class="ui header"> BMI : {{bmiInfo.bmi}}  </h3>
+
             </div>
         </div>
         <div class="ui statistic">
+            <div class="value">
+                <i class="doctor icon"></i>
+            </div>
             <div class="label">
-                <h2 class="ui header"> diagnosis   </h2>
+              <h3> {{bmiInfo.bmiCatagory}}</h3>
+
             </div>
         </div>
     </div>

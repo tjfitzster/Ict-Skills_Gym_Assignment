@@ -2,49 +2,121 @@
   "listofAssessments": [
     {
       "id": "7c9c7c90-dc0c-11ea-aad8-0510c8c35fae",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "userid": "e5e977b0-dc0d-11ea-9bdc-0d77a78ef15d",
       "assessment": [
         {
           "id": "a9251740-dc0c-11ea-aad8-0510c8c35fae",
-          "Weight": "SONG 1",
-          "Chest": "ARTIST 1",
-          "Thigh": "21-07-07",
+          "Weight": "12",
+          "Chest": "12",
+          "Thigh": "13",
           "UpperArm": "12",
-          "Waist" : "12",
-          "Hips" : "12"
+          "Waist": "12",
+          "Hips": "12"
         },
         {
           "id": "b0dfd9c0-dc0c-11ea-aad8-0510c8c35fae",
-          "Weight": "SONG 2",
-          "Chest": "ARTIST 2",
-          "Thigh": "21-07-07",
-          "UpperArm": "12",
-          "Waist" : "12",
-          "Hips" : "12"
+          "Weight": "2",
+          "Chest": "4",
+          "Thigh": "6",
+          "UpperArm": "7",
+          "Waist": "8",
+          "Hips": "12"
+        },
+        {
+          "id": "899e2b10-e1a1-11ea-8dd6-a5f3682f3aa8",
+          "Weight": "3",
+          "Chest": "3",
+          "Thigh": "3",
+          "UpperArm": "3",
+          "Waist": "3",
+          "Hips": "3"
         }
       ]
     },
     {
       "id": "7c9c7c90-dc0c-11ea-aad8-0510c8c35faa",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c1",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "assessment": [
         {
           "id": "a9251740-dc0c-11ea-aad8-0510c8c35fa1",
-          "Weight": "SONG 3",
-          "Chest": "ARTIST 3",
-          "Thigh": "21-07-07",
-          "UpperArm": "12",
-          "Waist" : "12",
-          "Hips" : "12"
+          "Weight": "2",
+          "Chest": "4",
+          "Thigh": "7",
+          "UpperArm": "15",
+          "Waist": "21",
+          "Hips": "22"
         },
         {
           "id": "b0dfd9c0-dc0c-11ea-aad8-0510c8c35fa1",
-          "Weight": "SONG 4",
-          "Chest": "ARTIST 4",
-          "Thigh": "21-07-07",
-          "UpperArm": "12",
-          "Waist" : "12",
-          "Hips" : "12"
+          "Weight": "15",
+          "Chest": "22 ",
+          "Thigh": "21",
+          "UpperArm": "22",
+          "Waist": "12",
+          "Hips": "12"
+        },
+        {
+          "id": "6ed9a550-e7ac-11ea-8c74-c177288fe73a",
+          "Weight": "7",
+          "Chest": "7",
+          "Thigh": "7",
+          "UpperArm": "7",
+          "Waist": "7",
+          "Hips": "7"
+        },
+        {
+          "id": "d62c4c80-e7ac-11ea-b30d-9555fa3a2108",
+          "Weight": "200",
+          "Chest": "12",
+          "Thigh": "11",
+          "UpperArm": "11",
+          "Waist": "11",
+          "Hips": "11"
+        },
+        {
+          "id": "eb767970-e7ad-11ea-9fac-a193293330b4",
+          "Weight": "200",
+          "Chest": "12",
+          "Thigh": "1",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "fe5d0950-e7ad-11ea-9732-bd10656d6717",
+          "Weight": "200",
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "0a86e5c0-e7ae-11ea-9732-bd10656d6717",
+          "Weight": "500",
+          "Chest": "2",
+          "Thigh": "2",
+          "UpperArm": "2",
+          "Waist": "2",
+          "Hips": "2"
+        },
+        {
+          "id": "282ec160-e7ae-11ea-8922-fbfb29017fa7",
+          "Weight": "2",
+          "Chest": "1",
+          "Thigh": "2",
+          "UpperArm": "4",
+          "Waist": "5",
+          "Hips": "6"
+        },
+        {
+          "id": "414702c0-e7ae-11ea-8922-fbfb29017fa7",
+          "Weight": "600",
+          "Chest": "2",
+          "Thigh": "3",
+          "UpperArm": "1",
+          "Waist": "1",
+          "Hips": "6"
         }
       ]
     }

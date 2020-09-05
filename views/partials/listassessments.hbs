@@ -1,39 +1,43 @@
 
-<table class="ui table">
-    <thead>
-    <tr>
-        <th>Weight</th>
-        <th>Chest</th>
-        <th>Thigh</th>
-        <th>UpperArm</th>
-        <th>Waist</th>
-        <th>Hips</th>
-    </tr>
-    </thead>
-    <tbody>
-    {{#each memberAssessments}}
+
+
+<section class="ui segment">
+    <table class="ui table">
+        <thead>
         <tr>
-            <td>
-                {{id}}
-            </td>
-            <td>
-                {{Chest}}
-            </td>
-            <td>
-                {{Thigh}}
-            </td>
-            <td>
-                {{UpperArm}}
-            </td>
-            <td>
-                {{Waist}}
-            </td>
-            <td>
-                {{Hips}}
-            </td>
-            <td>
-        {{/each}}
-            </td>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
         </tr>
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+        {{#each assessments}}
+            {{#each assessment}}
+            <tr>
+                <td>
+                    {{Weight}}
+                </td>
+                <td>
+                    {{Chest}}
+                </td>
+                <td>
+                    {{Thigh}}
+                </td>
+                <td>
+                    {{UpperArm}}
+                </td>
+                <td>
+                    {{Waist}}
+                </td>
+                <td>
+                    {{Hips}}
+                </td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</section>
+{{/each}}

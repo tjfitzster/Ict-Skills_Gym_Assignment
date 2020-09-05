@@ -3,6 +3,8 @@
     {
       "firstName": "homer",
       "lastName": "simpson",
+      "height": "5",
+      "sex": "M",
       "email": "homer@simpson.com",
       "password": "secret",
       "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
@@ -10,6 +12,8 @@
     {
       "firstName": "marge",
       "lastName": "simpson",
+      "height": "12",
+      "sex": "F",
       "email": "marge@simpson.com",
       "password": "secret",
       "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
@@ -17,6 +21,8 @@
     {
       "firstName": "tj",
       "lastName": "Fitzpatrick",
+      "height": "12",
+      "sex": "M",
       "email": "tj@fitzpatrick.com",
       "password": "secret",
       "id": "e5e977b0-dc0d-11ea-9bdc-0d77a78ef15d"
@@ -24,6 +30,8 @@
     {
       "firstName": "jim",
       "lastName": "jones",
+      "height": "12",
+      "sex": "M",
       "email": "j@j.com",
       "password": "secret",
       "id": "f3142840-df00-11ea-8ea0-3384a6577182"
