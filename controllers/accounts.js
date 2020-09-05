@@ -44,8 +44,14 @@ const accounts = {
     if (user.password === request.body.password) {
       response.cookie("playlist", user.email);
       logger.info(`logging in ${user.email}`);
-      response.redirect("/dashboard");
-    } else {
+              if (user.userType === 'M') {
+                response.redirect("/dashboard");
+              }
+              else{
+               response.redirect("/trainerdashboard");
+              }
+    }
+    else {
       response.redirect("/login");
     }
   },

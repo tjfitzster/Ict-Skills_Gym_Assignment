@@ -1,0 +1,47 @@
+{{> trainermenu id="trainersettings"}}
+
+<section class="ui segment">
+<div class="ui two column grid basic middle aligned segment">
+    <div class="column">
+        <img class="ui image" src="/public/images/about.jpg">
+    </div>
+    <div class="column">
+        <form class="ui stacked segment form" action="/settings" method="POST">
+            <h3 class="ui header">Trainer Settings</h3>
+            <div class="two fields">
+                <div class="field">
+                    <label>Name</label>
+                    <input placeholder="Name" type="text" name="member.name" value="{{loggedInUser.firstName}}">
+                </div>
+                <div class="field">
+                    <label>Gender</label>
+                    <input placeholder="Gender" type="text" name="member.gender" value="{{loggedInUser.sex}}">
+                </div>
+            </div>
+            <div class="field">
+                <label>Email</label>
+                <input placeholder="Email" type="text" name="member.email" value="{{loggedInUser.email}}">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" name="member.password" value="{{loggedInUser.password}}">
+            </div>
+            <div class="field">
+                <label>Address</label>
+                <input type="text" name="member.address" value="{{loggedInUser.address}}">
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>Height</label>
+                    <input placeholder="Name" type="text" name="member.height" value="{{loggedInUser.height}}">
+                </div>
+                <div class="field">
+                    <label>Starting Weight</label>
+                    <input placeholder="Starting Weight" type="text" name="member.startingweight" value="{{loggedInUser.startingWeight}}">
+                </div>
+            </div>
+            <button class="ui blue submit button">Submit</button>
+        </form>
+    </div>
+</div>
+</section>

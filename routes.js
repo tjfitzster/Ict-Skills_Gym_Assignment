@@ -5,6 +5,7 @@ const router = express.Router();
 
 const accounts = require("./controllers/accounts.js");
 const dashboard = require("./controllers/dashboard.js");
+const trainerdashboard = require("./controllers/trainerdashboard.js");
 const about = require("./controllers/about.js");
 const playlist = require("./controllers/playlist.js");
 
@@ -18,6 +19,8 @@ router.post("/authenticate", accounts.authenticate);
 router.get("/dashboard", dashboard.index);
 router.post("/dashboard/addassessment", dashboard.addAssessment);
 
+router.get("/trainerdashboard", trainerdashboard.index);
+router.get("/settings", trainerdashboard.settings);
 //router.get("/dashboard/deleteplaylist/:id", dashboard.deletePlaylist);
 //router.post("/dashboard/addplaylist", dashboard.addPlaylist);
 

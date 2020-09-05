@@ -2,8 +2,8 @@
   "bmiCollection": [
     {
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "bmi": 24,
-      "bmiCatagory": "NORMAL"
+      "bmi": 0.04,
+      "bmiCatagory": "VERY SEVERELY UNDERWEIGHT"
     },
     {
       "userid": "e5e977b0-dc0d-11ea-9bdc-0d77a78ef15d",
