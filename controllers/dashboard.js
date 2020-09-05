@@ -12,7 +12,8 @@ const dashboard = {
     };
     logger.info("about to render", AssessmentCollection);
     response.render("dashboard", viewData);
-  }
+  },
+
 };
 
 module.exports = dashboard;

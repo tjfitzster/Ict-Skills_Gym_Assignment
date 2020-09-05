@@ -1,10 +1,9 @@
 {{> menu id="dashboard"}}
+{{> analytics}}
+{{> addassessment}}
 
 {{#each assessments}}
   <section class="ui segment">
-    <h2 class="ui header">
-      {{title}}
-    </h2>
     <table class="ui table">
       <thead>
         <tr>
@@ -17,7 +16,7 @@
         </tr>
       </thead>
       <tbody>
-        {{#each songs}}
+        {{#each assessment}}
           <tr>
             <td>
               {{Weight}}

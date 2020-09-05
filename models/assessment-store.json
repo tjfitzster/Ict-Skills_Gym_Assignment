@@ -1,9 +1,12 @@
 {
   "Assessmentlistcollection": [
     {
-      "title": "Henry",
-      "songs": [
+      "memberid": "01",
+      "member": "James",
+      "age": 31,
+      "assessment": [
         {
+          "assessmentid": "01",
           "Weight": "12",
           "Chest": "13",
           "Thigh": "16",
@@ -12,6 +15,7 @@
           "Hips": "20"
         },
         {
+          "assessmentid": "02",
           "Weight": "12",
           "Chest": "13",
           "Thigh": "16",
@@ -20,35 +24,7 @@
           "Hips": "20"
         },
         {
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
-        }
-      ]
-    },
-    {
-      "title": "Joe",
-      "songs": [
-        {
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
-        },
-        {
-          "Weight": "12",
-          "Chest": "13",
-          "Thigh": "16",
-          "UpperArm": "18",
-          "Waist": "20",
-          "Hips": "20"
-        },
-        {
+          "assessmentid": "03",
           "Weight": "12",
           "Chest": "13",
           "Thigh": "16",
