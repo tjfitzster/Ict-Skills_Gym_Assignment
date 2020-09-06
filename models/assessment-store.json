@@ -63,28 +63,16 @@
           "UpperArm": "7",
           "Waist": "7",
           "Hips": "7"
-        },
+        }
+      ]
+    },
+    {
+      "id": "0ea0ffa0-efb6-11ea-a1a5-c91a54ec8959",
+      "userid": "dac69d70-efb5-11ea-a1a5-c91a54ec8959",
+      "assessment": [
         {
-          "id": "d62c4c80-e7ac-11ea-b30d-9555fa3a2108",
-          "Weight": "200",
-          "Chest": "12",
-          "Thigh": "11",
-          "UpperArm": "11",
-          "Waist": "11",
-          "Hips": "11"
-        },
-        {
-          "id": "eb767970-e7ad-11ea-9fac-a193293330b4",
-          "Weight": "200",
-          "Chest": "12",
-          "Thigh": "1",
-          "UpperArm": "2",
-          "Waist": "2",
-          "Hips": "2"
-        },
-        {
-          "id": "fe5d0950-e7ad-11ea-9732-bd10656d6717",
-          "Weight": "200",
+          "id": "0ea0ffa1-efb6-11ea-a1a5-c91a54ec8959",
+          "Weight": "98",
           "Chest": "2",
           "Thigh": "2",
           "UpperArm": "2",
@@ -92,40 +80,13 @@
           "Hips": "2"
         },
         {
-          "id": "0a86e5c0-e7ae-11ea-9732-bd10656d6717",
-          "Weight": "500",
+          "id": "18f50aa0-efb6-11ea-a1a5-c91a54ec8959",
+          "Weight": "102",
           "Chest": "2",
           "Thigh": "2",
           "UpperArm": "2",
           "Waist": "2",
           "Hips": "2"
-        },
-        {
-          "id": "282ec160-e7ae-11ea-8922-fbfb29017fa7",
-          "Weight": "2",
-          "Chest": "1",
-          "Thigh": "2",
-          "UpperArm": "4",
-          "Waist": "5",
-          "Hips": "6"
-        },
-        {
-          "id": "414702c0-e7ae-11ea-8922-fbfb29017fa7",
-          "Weight": "600",
-          "Chest": "2",
-          "Thigh": "3",
-          "UpperArm": "1",
-          "Waist": "1",
-          "Hips": "6"
-        },
-        {
-          "id": "ca3ae3f0-eac7-11ea-ae0c-e579dc57d32d",
-          "Weight": "1",
-          "Chest": "1",
-          "Thigh": "1",
-          "UpperArm": "1",
-          "Waist": "1",
-          "Hips": ""
         }
       ]
     }

@@ -11,6 +11,7 @@
  *     BMI between      35   (inclusive) and 40   (exclusive) is "SEVERELY OBESE"
  *     BMI greater than 40   (inclusive)                      is "VERY SEVERELY OBESE"
  */
+const userinfo = require("../models/user-store");
 
 const bmiCatagory = {
 
@@ -42,8 +43,12 @@ const bmiCatagory = {
     }
   },
 
-  calculate_bmi(weight, height){
-    return ((weight) / (height * height));
+  calculate_firstbmi(id){
+    let user = userinfo.getUserById(id);
+    let bmi = (user.startingWeight / ((user.height) *(user.height)))
+
+    return bmi;
+
   }
 };
 

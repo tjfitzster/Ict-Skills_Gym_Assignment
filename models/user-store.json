@@ -5,7 +5,7 @@
       "lastName": "simpson",
       "height": "5",
       "startingWeight": "12",
-      "sex": "M",
+      "gender": "M",
       "userType": "M",
       "email": "homer@simpson.com",
       "password": "secret",
@@ -17,7 +17,7 @@
       "lastName": "simpson",
       "height": "12",
       "startingWeight": "12",
-      "sex": "F",
+      "gender": "F",
       "userType": "T",
       "email": "marge@simpson.com",
       "password": "secret",
@@ -29,7 +29,7 @@
       "lastName": "Fitzpatrick",
       "height": "12",
       "startingWeight": "12",
-      "sex": "M",
+      "gender": "M",
       "userType": "M",
       "email": "tj@fitzpatrick.com",
       "password": "secret",
@@ -41,12 +41,24 @@
       "lastName": "jones",
       "startingWeight": "12",
       "height": "12",
-      "sex": "M",
+      "gender": "M",
       "userType": "T",
       "email": "j@j.com",
       "password": "secret",
       "address": "34 bbp",
       "id": "f3142840-df00-11ea-8ea0-3384a6577182"
+    },
+    {
+      "firstName": "Rodger",
+      "lastName": "Rabbit",
+      "gender": "M",
+      "userType": "M",
+      "email": "r@r.com",
+      "password": "secret",
+      "address": "64 Kilkenny city",
+      "height": "2.1",
+      "startingWeight": "100",
+      "id": "dac69d70-efb5-11ea-a1a5-c91a54ec8959"
     }
   ]
 }

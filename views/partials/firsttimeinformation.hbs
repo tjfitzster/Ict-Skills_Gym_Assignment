@@ -6,7 +6,7 @@
                 <i class="user icon"> </i>
             </div>
             <div class="label">
-                <h3 class="ui header">{{user.firstName}}  </h3>
+                <h3 class="ui header">{{userdata.firstName}}  </h3>
             </div>
         </div>
         <div class="ui statistic">
@@ -15,7 +15,7 @@
             </div>
             <div class="label">
 
-                <h3 class="ui header"> BMI : {{bmiInfo.bmi}}  </h3>
+                <h3 class="ui header"> BMI : {{bmi}}  </h3>
 
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <i class="doctor icon"></i>
             </div>
             <div class="label">
-              <h3> {{bmiInfo.bmiCatagory}}</h3>
+                <h3> {{bmiCatagory}}</h3>
 
             </div>
         </div>
@@ -32,17 +32,17 @@
             <div class="value">
                 {{#if isIdealWeight}}
                     <i class="green dashboard icon"></i>
-                    <div class="label">
-                        <h3> IDEAL </h3>
-                    </div>
+                <div class="label">
+                    <h3> IDEAL </h3>
+                </div>
                 {{else}}
                     <i class="red dashboard icon"></i>
-                    <div class="label">
-                        <h3> NOT IDEAL </h3>
-                    </div>
+                <div class="label">
+                    <h3> NOT IDEAL </h3>
+                </div>
                 {{/if}}
             </div>
-    </div>
+        </div>
 </section>
 
 

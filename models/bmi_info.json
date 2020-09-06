@@ -2,13 +2,48 @@
   "bmiCollection": [
     {
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "bmi": 0.04,
+      "bmi": 4.08,
       "bmiCatagory": "VERY SEVERELY UNDERWEIGHT"
     },
     {
       "userid": "e5e977b0-dc0d-11ea-9bdc-0d77a78ef15d",
       "bmi": "25",
       "bmiCatagory": "VERY SEVERELY UNDERWEIGHT"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 11,
+      "bmiCatagory": "VERY SEVERELY UNDERWEIGHT"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 45,
+      "bmiCatagory": "VERY SEVERELY OBESE"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 113,
+      "bmiCatagory": "VERY SEVERELY OBESE"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 113,
+      "bmiCatagory": "VERY SEVERELY OBESE"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 113,
+      "bmiCatagory": "VERY SEVERELY OBESE"
+    },
+    {
+      "userid": "c9eeba90-ead9-11ea-94c6-3bac6cec9764",
+      "bmi": 113,
+      "bmiCatagory": "VERY SEVERELY OBESE"
+    },
+    {
+      "userid": "dac69d70-efb5-11ea-a1a5-c91a54ec8959",
+      "bmi": 23,
+      "bmiCatagory": "NORMAL"
     }
   ]
 }

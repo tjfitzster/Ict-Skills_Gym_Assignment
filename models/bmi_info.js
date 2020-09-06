@@ -11,9 +11,7 @@ const user_bmi_info = {
   }),
   collection: "bmiCollection",
 
- // getUserbmi_info(userid) {
-  //  return this.store.findBy(this.collection, { userid: userid });
- // },
+
 
    getUserbmi_info(userid) {
      return this.store.findOneBy(this.collection, { userid: userid });
@@ -23,6 +21,11 @@ const user_bmi_info = {
     current_Bmi.userid = updated_Bmi.userid;
     current_Bmi.bmi = updated_Bmi.bmi;
     current_Bmi.bmiCatagory = updated_Bmi.bmiCatagory;
+    this.store.save();
+  },
+
+  addfirst_bmi_info(updated_Bmi) {
+    this.store.add(this.collection, updated_Bmi);
     this.store.save();
   }
 
